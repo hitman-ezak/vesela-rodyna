@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footer{
+    width:100%;
+    min-height: 173px;
+    background: url('../img/footer-bg.png') center bottom repeat-x;
+    margin-top:-2px;
+    position: absolute;
+}
+.footer-holder{
+    width:960px;
+    margin: 0 auto;
+    padding:70px 0 0 0 ;
+}
+.foot-logo{
+    width:22%;
+    height: 44px;
+    float:left;
+    margin:0 0 0 45px;
+}
+.foot-phone{
+    float:left;
+    width:30%;
+}
+.copyright{
+    float:left;
+    width:40%;
+}

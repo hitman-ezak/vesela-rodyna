@@ -1,0 +1,324 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201401 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.mnz.cabinet.io.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2676                
+POS_VISITOR 6361                
+POS_DAY 6763                
+POS_DOMAIN 3313                
+POS_LOGIN 3546                
+POS_ROBOT 3701                
+POS_WORMS 3868                
+POS_EMAILSENDER 3999                
+POS_EMAILRECEIVER 4142                
+POS_SESSION 6975                
+POS_SIDER 7180                
+POS_FILETYPES 4277                
+POS_DOWNLOADS 4481                
+POS_OS 4529                
+POS_BROWSER 4600                
+POS_SCREENSIZE 4711                
+POS_UNKNOWNREFERER 4785                
+POS_UNKNOWNREFERERBROWSER 4872                
+POS_ORIGIN 4954                
+POS_SEREFERRALS 5091                
+POS_PAGEREFS 5235                
+POS_SEARCHWORDS 5383                
+POS_KEYWORDS 5535                
+POS_MISC 2337                
+POS_ERRORS 5594                
+POS_CLUSTER 3402                
+POS_SIDER_404 5719                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140131130457 94 26973 10522417425582
+FirstTime 20140126164315
+LastTime 20140131130457
+LastUpdate 20140201000241 94 0 94 0 0
+TotalVisits 14                  
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 7                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1202 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 2 6 7655 1 3 617
+8 66 199 3592717 3 59 12178
+9 121 383 7224365 11 85 19505
+10 476 1073 9948713 42 294 70985
+11 390 1242 16978223 42 133 37170
+12 327 911 10708453 31 219 61317
+13 200 346 4115621 6 177 42106
+14 373 1057 6685649 13 306 79891
+15 96 297 2051611 4 89 21310
+16 6 87 3711642 2 9 1843
+17 1 33 2108921 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 1 1 3267 1 1 245
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2059 5635 67136837
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+wordpress 10 2348 20140131110837 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 1599 42563358 0 0
+css 252 928556 0 0
+png 2085 18416771 0 0
+html 460 1519330 0 0
+jpg 179 2266549 0 0
+js 962 1359239 0 0
+gif 98 83034 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 3
+macosx 34
+winvista 27
+win7 5574
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 3
+safari7.0 34
+chrome32.0.1700.102 423
+chrome32.0.1700.76 5178
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 47
+From1 0 0
+From2 0 0
+From3 0 0
+From4 2050 5588
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 132 63879
+500 2 4050
+404 17 40169
+301 12 5827
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/product_taxonomies/ketchupi/none.png 2 http://mnz.cabinet.io/product_taxonomies/ketchupi/
+/product_taxonomies/gorchitsa/none.png 7 http://mnz.cabinet.io/product_taxonomies/gorchitsa/
+/product_taxonomies/pasta/none.png 1 http://mnz.cabinet.io/product_taxonomies/pasta/
+/none.png 6 -
+/wp-content/uploads/2013/01/catalog-img41.png 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 7
+91.219.29.99 2059 2059 44082688 20140131130457 20140131130012 /%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d0%b8/
+93.157.11.206 0 3389 15703288 
+93.76.231.140 0 26 809440 
+94.179.28.254 0 55 2883933 
+178.151.148.15 0 32 2105654 
+94.153.150.26 0 3 7005 
+92.249.109.236 0 71 1544829 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20140126 1 27 812230 1
+20140127 10 101 5022062 4
+20140128 1928 5084 55467211 1
+20140129 23 130 2632832 2
+20140130 86 211 1630540 4
+20140131 11 82 1571962 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 1
+15mn-30mn 2
+2mn-5mn 1
+0s-30s 5
+30s-2mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 63
+/wp-admin/admin-ajax.php 482 2575555 0 0
+/wp-admin/load-scripts.php 278 20282081 0 1
+/wp-admin/post.php 149 3584662 0 0
+/wp-admin/media-upload.php 126 602005 0 0
+/ 111 391241 6 7
+/wp-admin/edit.php 109 1042331 0 0
+/category/news/ 103 300968 1 1
+/wp-includes/js/tinymce/wp-tinymce.php 91 10555909 0 0
+/wp-admin/async-upload.php 89 99890 0 0
+/%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3-%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d0%b8/ 72 159113 2 2
+/wp-admin/media-new.php 1 7037 0 0
+/wp-admin/post-new.php 24 546049 0 0
+/product_taxonomies/ketchupi/ 4 14020 0 0
+/wp-admin/load-styles.php 22 606540 0 0
+/wp-admin/index.php 5 76391 0 0
+/recipes_taxonomies/drugoe/ 3 7880 0 0
+/wp-admin/users.php 3 22839 0 0
+/wp-admin/export.php 2 12988 0 0
+/wp-admin/options-reading.php 2 14002 0 0
+/recipes_taxonomies/zakyski/ 42 112619 0 0
+/wp-includes/js/tinymce/plugins/wpeditimage/editimage.html 1 3222 0 0
+/recipes/%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d1%81-%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0%d0%bc%d0%b8-%d0%b8-%d1%82%d1%8b%d0%ba%d0%b2%d0%be%d0%b9-2/ 1 3992 0 0
+/wp-admin/tools.php 5 32926 0 0
+/wp-admin/admin.php 3 26859 0 0
+/%d0%be-%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7%d0%b5/ 9 45051 1 0
+/wp-admin/theme-install.php 1 7662 0 0
+/wp-admin/ 3 41847 0 0
+/wp-admin/theme-editor.php 19 175106 0 0
+/%d0%be-%d0%bd%d0%b0%d1%81/ 4 18835 0 0
+/wp-admin/edit-tags.php 36 332436 0 0
+/%d0%b8%d1%81%d1%82%d0%be%d1%80%d0%b8%d1%8f/ 13 51410 0 0
+/wp-admin/plugins.php 2 20123 0 0
+/product/legkiy30/ 6 19596 0 0
+/product_taxonomies/gorchitsa/ 9 27191 0 0
+/recipes_taxonomies/goryachie-bluda/ 3 7964 0 0
+/wp-admin/options-permalink.php 2 14490 0 0
+/product_taxonomies/mayonezi/ 1 4365 0 0
+/sample-page/%d0%be-%d1%82%d0%be%d1%80%d0%b3%d0%be%d0%b2%d0%be%d0%b9-%d0%bc%d0%b0%d1%80%d0%ba%d0%b5/ 16 66849 0 1
+/wp-admin/media.php 2 13719 0 0
+/wp-admin/options-media.php 1 6082 0 0
+/wp-admin/options-writing.php 2 15304 0 0
+/wp-admin/profile.php 1 7239 0 0
+/wp-admin/nav-menus.php 64 1242583 0 0
+/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/ 22 131674 0 0
+/sample-page/%d0%bc%d1%8b/ 5 13505 0 0
+/%d0%bc%d1%8b/ 8 24956 0 0
+/recipes/%d0%ba%d0%b0%d1%80%d1%82%d0%be%d1%84%d0%b5%d0%bb%d1%8c-%d0%b7%d0%b0%d0%bf%d0%b5%d1%87%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9-%d0%b2-%d0%b1%d0%b5%d0%ba%d0%be%d0%bd%d0%b5/ 1 4010 0 0
+/product/provans67-2/ 8 25028 0 0
+/recipes_taxonomies/salatu/ 4 10669 0 0
+/%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%B8/ 3 7639 3 1
+/product/provans67/ 2 5856 0 0
+/recipes/%d0%bf%d0%b5%d1%81%d0%be%d1%87%d0%bd%d1%8b%d0%b9-%d0%bf%d0%b8%d1%80%d0%be%d0%b3-%d1%81-%d1%8f%d0%b1%d0%bb%d0%be%d0%ba%d0%b0%d0%bc%d0%b8-%d0%b8-%d1%82%d1%8b%d0%ba%d0%b2%d0%be%d0%b9/ 1 3854 0 0
+/wp-admin/import.php 2 12766 0 0
+/slids/%d0%bc%d0%b0%d0%b9%d0%be%d0%bd%d0%b5%d0%b7/ 1 3039 0 0
+/product_taxonomies/pasta/ 2 6295 0 0
+/product/soyuzni67/ 2 6642 0 0
+/wp-admin/edit-comments.php 4 39632 0 0
+/wp-admin/upload.php 15 158889 0 0
+/wp-admin/customize.php 8 32032 0 0
+/wp-login.php 4 6099 1 0
+/wp-admin/themes.php 14 137498 0 0
+/wp-admin/options-discussion.php 1 7671 0 0
+/wp-admin/options-general.php 30 245963 0 0
+END_SIDER

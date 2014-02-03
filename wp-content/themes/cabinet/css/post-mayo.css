@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.paper_mayo{
+    padding:30px 0 35px; 
+    border-bottom: 1px dashed #c5c5c5;
+}
+.paper_mayo:first-child{
+    padding-top:0;
+}
+.paper_mayo:last-child{
+    border: none;
+}
+.paper_mayo figure{
+   
+    overflow: hidden;
+}
+
+.paper_mayo  img{
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 53px;
+}
+.paper_mayo figure  figcaption{
+    margin-top:45px;
+}
+.paper_mayo figure  figcaption p{
+    font: italic 18px Georgia, sans-serif;
+    color: #000;
+}
+.paper_mayo figure  figcaption h3{
+    font: 24px Georgia, sans-serif;
+    margin-bottom: 20px;
+}
+.paper_mayo p{
+    font:14px Arial, sans-serif;
+    color: #000;
+    margin-bottom: 19px;
+}
+.paper_mayo p span{
+    font:italic 14px Georgia, sans-serif;
+}

@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news-post-ful{
+    font: 14px Arial, sans-serif;
+    color: #000;
+    height:100%;
+    min-height: 1000px;
+    max-height: 2890px;
+    position: relative;
+    background-image: -webkit-linear-gradient(32deg, #fff 94%, transparent 9%);
+    background-image: -moz-linear-gradient(32deg, #fff 94%, transparent 9%);
+    background-image: -ms-linear-gradient(32deg, #fff 94%, transparent 9%);
+}
+.news-post-ful-holder{
+    background: url('../img/page-corner.png') right top no-repeat;
+    padding: 43px 80px 0 65px;
+}
+
+.news-post-ful .img-center{
+    margin:0 auto;
+    width:300px;
+}
+.news-post-ful:before,
+.news-post-ful:after {
+ z-index: -1;
+ position: absolute;
+ content: "";
+ bottom: 15px;
+ left: 36px;
+ width: 50%;
+ top: 10%;
+ max-width:300px;
+ background-color: transparent;
+ -webkit-box-shadow: -18px -18px 10px rgba(0, 0, 0, 0.27);
+ -moz-box-shadow: -18px -18px 10px rgba(0, 0, 0, 0.27);
+ box-shadow: -18px -18px 10px rgba(0, 0, 0, 0.27);
+ -webkit-transform: rotate(-3deg);
+ -moz-transform: rotate(-3deg);
+ -o-transform: rotate(-3deg);
+ -ms-transform: rotate(-3deg);
+ transform: rotate(-3deg);
+}
+
+.news-post-ful:after {
+-webkit-box-shadow: 18px -18px 10px rgba(0, 0, 0, 0.27);
+ -moz-box-shadow: 18px -18px 10px rgba(0, 0, 0, 0.27);
+ box-shadow: 18px -18px 10px rgba(0, 0, 0, 0.27);
+ -webkit-transform: rotate(3deg);
+ -moz-transform: rotate(3deg);
+ -o-transform: rotate(3deg);
+ -ms-transform: rotate(3deg);
+ transform: rotate(3deg);
+ right: 36px;
+ left: auto;
+}
+
+.news-post-ful-holder:before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    z-index: -1;
+    -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.news-post-ful header h2{
+    font:bold italic 30px Georgia, sans-serif;
+    color: #000;
+    margin-bottom: 21px;
+}
+.news-post-ful header p{
+    font:italic 14px arial, sans-serif;
+    color: #000;
+    margin-bottom: 22px;
+}
+.news-post-ful header time{
+    display: block;
+    font:italic 14px Georgia, sans-serif;
+    color: #000;
+    margin-bottom: 22px;
+}
+.news-post-ful article p:first-child{
+    font-style: italic;
+    margin-bottom:30px;
+}
+.news-post-ful article p{
+    margin-bottom: 20px;
+}
+.news-post-ful .more{
+   /* border-bottom: 1px dashed #c5c5c5;*/
+    border-top: 1px dashed #c5c5c5;
+    padding: 20px 0 50px;
+}
+.news-post-ful footer{
+    border-top: 1px dashed #c5c5c5;
+}
+.news-post-ful .more p{
+    font:italic 14px  Georgia, sans-serif;
+}
+.news-post-ful .more  .img-center figcaption{
+    font:italic 14px Arial, sans-serif;
+    color:#666666;
+}
+.news-post-ful footer{
+    padding: 60px 0 0 0;
+    position: relative;
+    height: 143px;
+}
+
+.news-post-ful footer:after{
+    content:"";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.news-post-ful footer .news-nav{
+    margin: 53px 0 0 -35px;
+    position: absolute;
+    width: 111%;
+}
+.news-post-ful footer .prev-news, .news-post-ful footer .next-news{
+    float:left;
+    display: block;
+    width:100px;
+    font:italic 14px Georgia, sans-serif;
+    color: #000;
+    text-decoration: none;
+    text-align:right;
+    margin-right: 20px;
+}
+.news-post-ful footer .next-news{
+    float:right;
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.news-post-ful footer .prev-news:hover, .news-post-ful footer .next-news:hover{
+    text-decoration: underline;
+}
+.post-box-news-holder{
+    width:482px;
+    margin: 0 auto;
+    clear: both;
+}
+/*recipes ful======================================================================================*/
+.recipes-post{
+    text-align: center;
+    font:italic 18px Georgia, sans-serif;
+    color: #000;
+}
+.recipes-post h6{
+    margin-top: 35px;
+    font-weight: normal;
+}
+.recipes-post-box{
+    padding:15px 0 15px 0;
+    border-bottom:1px dashed #cfcfcf;
+    text-align:center;
+}
+.recipes-post-box:first-child{
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.recipes-post-box:first-child img{
+    margin-right: 60px;
+}
+.recipes-post-box:first-child figcaption{
+    padding-top: 0;
+}
+.recipes-post-box figcaption{
+    padding-top: 50px;
+}
+.recipes-post-box figure{
+    display: block;
+}
+.recipes-post-box figure:after{
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+}
+.recipes-post-box img{
+    float: left;
+    margin-right: 20px;
+}
+.recipes-post-box h4{
+    font:bold italic 18px Georgia, sans-serif;
+    color: #000;
+}
+.recipes-post-box h3{
+    font: italic 30px Georgia, sans-serif;
+    color: #000;
+    margin:0px 0 18px;
+}
+.recipes-post-box p{
+    font: italic 14px Georgia, sans-serif;
+    color: #000;
+}
+.recipes-post-box table{
+    font:14px Arial, sans-serif;
+    color: #000;
+    display: block;
+    width: 220px;
+    float: left;
+}
+.recipes-post-box table td{
+    width:110px;
+}
+.recipes-post-box table tr{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+}
+.news-post-ful-holder footer h2{
+    text-align: center;
+    font: bold italic 24px Georgia, sans-serif;
+    color: #006600;
+}
