@@ -610,6 +610,8 @@ body{
     margin:0 13px 40px 15px;
 
 }
+.catalog-post-clear {overflow: hidden;}
+
 .big{
     width:47%;
     margin-bottom: 56px;
